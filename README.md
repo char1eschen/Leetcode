@@ -1,5 +1,5 @@
 # Leetcode problems and solutions with JavaScript
-[![GitHub license](https://img.shields.io/crates/l/rustc-serialize.svg)](https://github.com/dnshi/Leetcode/blob/master/LICENSE.md)
+[![GitHub license](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/char1eschen/Leetcode/blob/master/LICENSE.md)
 ### LeetCode Algorithms
 
 | # | Title | Solution | Difficulty |

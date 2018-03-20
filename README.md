@@ -1,4 +1,4 @@
-# LeetCode
+# Leetcode problems and solutions with JavaScript
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/dnshi/Leetcode/blob/master/LICENSE.md)
 ### LeetCode Algorithms
 

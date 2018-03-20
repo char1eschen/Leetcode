@@ -30,20 +30,26 @@ var threeSum = function(nums) {
     var len=nums.length;
     nums.sort(function(a,b){return a>b ? 1 : -1;});
     
-    if(len<3){return result;}
-    for (left=0; left<len-2; left++) {
-        if(left==0 || nums[left]>nums[left-1]) {
-            target = 0-nums[left];
-            mid=left+1;
-            right=len-1;
-            while(mid<right) {
-                if(nums[mid]+nums[right]==target) {
-                    result.push([nums[left],nums[mid],nums[right]]);
+    if(len < 3){
+        return result;
+    }
+    for (left = 0; left < len - 2; left++) {
+        if(left == 0 || nums[left]>nums[left-1]) {
+            target = 0 - nums[left];
+            mid = left + 1;
+            right = len - 1;
+            while(mid < right) {
+                if(nums[mid] + nums[right] == target) {
+                    result.push([nums[left], nums[mid], nums[right]]);
                     mid++;
                     right--;
-                    while(mid<right && nums[mid]==nums[mid-1]){mid++;}
-                    while(mid<right && nums[right]==nums[right+1]){right--;}
-                } else if(nums[mid]+nums[right]<target) {
+                    while(mid < right && nums[mid] == nums[mid-1]) {
+                        mid++;
+                    }
+                    while(mid < right && nums[right] == nums[right+1]) {
+                        right--;
+                    }
+                } else if(nums[mid] + nums[right] < target) {
                     mid++;
                 } else {
                     right--;

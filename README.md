@@ -1,6 +1,6 @@
 # Leetcode problems and solutions in JavaScript
 [![GitHub license](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/char1eschen/Leetcode/blob/master/LICENSE.md)
-### LeetCode atabase
+### LeetCode Algorithms
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |

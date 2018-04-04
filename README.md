@@ -1,4 +1,4 @@
-# Leetcode problems and solutions in JavaScript
+# Leetcode problems and solutions in JavaScript & SQL
 [![GitHub license](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://github.com/char1eschen/Leetcode/blob/master/LICENSE.md)
 ### LeetCode Algorithms
 

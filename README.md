@@ -22,10 +22,12 @@
 |182|[Duplicate Emails](https://leetcode.com/problems/duplicate-emails)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/DuplicateEmails.sql)|Easy|
 |183|[Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/CustomersWhoNeverOrder.sql)|Easy|
 |184|[Department Highest Salary](https://leetcode.com/problems/department-highest-salary)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/DepartmentHighestSalary.sql)|Medium|
+|185|[Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries)| [SQL]()|Hard|
 |196|[Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/DeleteDuplicateEmails.sql)|Easy|
 |197|[Rising Temperature](https://leetcode.com/problems/rising-temperature)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/RisingTemperature.sql)|Easy|
 |595|[Big Countries](https://leetcode.com/problems/big-countries)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/BigCountries.sql)|Easy|
 |596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/ClassesMoreThan5Students.sql)|Easy|
+|601|[Human Traffic of Stadium](https://leetcode.com/problems/human-traffic-of-stadium)| [SQL]()|Hard|
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/NotBoringMovies.sql)|Easy|
 |626|[Exchange Seats](https://leetcode.com/problems/exchange-seats)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/ExchangeSeats.sql)|Medium|
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary)| [SQL](https://github.com/char1eschen/Leetcode/blob/master/database/SwapSalary.sql)|Easy|

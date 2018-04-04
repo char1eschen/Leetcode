@@ -1,4 +1,5 @@
 --  Source : https://leetcode.com/problems/trips-and-users/
+--  Author : Charles Chen
 --  Date   : 2018-04-03
 
 /***************************************************************************************

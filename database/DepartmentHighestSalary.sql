@@ -33,7 +33,7 @@
  * 
  ***************************************************************************************/
 
-# Write your MySQL query statement below
+# Write your MySQL query statement below (Solution 1)
 SELECT  b.Name AS Department,
         a.Name AS Employee,
         a.Salary
@@ -43,3 +43,17 @@ WHERE   (a.DepartmentId, a.Salary) IN (
     SELECT      DepartmentId, MAX(Salary)
     FROM        Employee
     GROUP BY    DepartmentId);
+
+# Write your MySQL query statement below (Solution 2)
+SELECT  d.Name AS 'Department',
+        e.Name AS 'Employee',
+        e.Salary
+FROM    Employee e, Department d 
+WHERE   e.DepartmentId = d.Id
+AND     (DepartmentId, Salary) IN
+        (
+        SELECT      DepartmentId, 
+                    MAX(Salary)
+        FROM        Employee
+        GROUP BY    DepartmentId
+        );

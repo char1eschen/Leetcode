@@ -32,5 +32,6 @@ BEGIN
       WHERE     N-1 = (
         SELECT      COUNT(DISTINCT b.Salary)
         FROM        Employee AS b
-        WHERE       b.Salary > a.Salary));
+        WHERE       b.Salary > a.Salary)
+  );
 END
